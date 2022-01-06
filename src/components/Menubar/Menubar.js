@@ -8,15 +8,15 @@ const Menubar = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="light" variant="dark" >
                 <Container>
-                    <Navbar.Brand href="#home" className='fs-3 fw-bold text-dark'>Seo<span className='brandcolor'>Gram.</span></Navbar.Brand>
+                    <Navbar.Brand href="#home" className='fs-2 me-4 fw-bold text-dark'>Seo<span className='brandcolor'>Gram.</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className='bg-dark' />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Link to="/home" className="link ms-2 text-dark fw-bold">Home</Link>
-                            <Link to="/about" className="link ms-2 text-dark fw-bold">About</Link>
-                            <Link to="/service" className="link ms-2 text-dark fw-bold">Services</Link>
-                            <Link to="/blog" className="link ms-2 text-dark fw-bold">Blog</Link>
-                            <Link to="/contact" className="link ms-2 text-dark fw-bold">Contact</Link>
+                            <Link to="/home" className="link ms-4 p-2 text-dark fw-bold fs-5">Home</Link>
+                            <Link to="/about" className="link ms-4 p-2 text-dark fw-bold fs-5">About</Link>
+                            <Link to="/service" className="link ms-4 p-2 text-dark fw-bold fs-5">Services</Link>
+                            <Link to="/blog" className="link ms-4 p-2 text-dark fw-bold fs-5">Blog</Link>
+                            <Link to="/contact" className="link ms-4 p-2 text-dark fw-bold fs-5">Contact</Link>
 
                         </Nav>
                         <Nav>
