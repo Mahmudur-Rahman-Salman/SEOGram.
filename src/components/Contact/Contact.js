@@ -44,7 +44,7 @@ const Contact = () => {
                     <br />
                     <textarea className="form-control w-50 m-auto" placeholder='Message' rows="4"></textarea>
                     <br />
-                    <button type="submit" className="btn btn-primary">Send Message</button>
+                    <button type="submit" className="btn btn-primary" data-aos="zoom-in" data-aos-duration="1000">Send Message</button>
                 </div>
             </div>
         </div>
