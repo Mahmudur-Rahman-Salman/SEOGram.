@@ -1,9 +1,11 @@
 import React from 'react';
 import './Footer.css'
+import ScrollToTop from "react-scroll-to-top";
 
 const Footer = () => {
     return (
         <div className='mt-5 pt-5  text-white footer'>
+            <ScrollToTop smooth  top="500"/>
             <footer class="container">
                 <div class="row g-5 text-center">
                     <div class="col-12 col-md-6 col-lg-3">

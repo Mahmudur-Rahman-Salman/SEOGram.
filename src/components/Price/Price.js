@@ -5,12 +5,13 @@ const Price = () => {
     return (
         <div className="container mt-5 pt-5">
             <div className='text-center'>
-                <h5 className='text-secondary'>OUR SERVICES</h5>
-                <h2>How SEO Team Can Help</h2>
+                <h5 className='text-secondary'>PRICING PLAN</h5>
+                <h2>Choose plan the right for you</h2>
                 <div className="underline"></div>
             </div>
             <div className="row row-cols-1 row-cols-md-3 g-4 mt-5 pt-5">
-                <div className="col col-lg-4 col-md-6">
+                <div className="col col-lg-4 col-md-6" data-aos="fade-left"
+                    data-aos-duration="1000">
                     <div className="card">
                         <div className="card-body">
                             <h5 className='fw-bold  text-secondary'>BASIC</h5>
@@ -27,7 +28,8 @@ const Price = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col col-lg-4 col-md-6">
+                <div className="col col-lg-4 col-md-6" data-aos="fade-left"
+                    data-aos-duration="2000">
                     <div className="card text-light" style={{ backgroundColor: "rgb(97, 97, 238)" }}>
                         <div className="card-body">
                             <h5 className='fw-bold  text-light'>STANDARD</h5>
@@ -44,7 +46,8 @@ const Price = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col col-lg-4 col-md-6">
+                <div className="col col-lg-4 col-md-6" data-aos="fade-left"
+                    data-aos-duration="2500">
                     <div className="card">
                         <div className="card-body">
                             <h5 className='fw-bold  text-secondary'>PROFESSIONAL</h5>

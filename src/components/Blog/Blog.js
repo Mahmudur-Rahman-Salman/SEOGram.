@@ -14,55 +14,61 @@ const Blog = () => {
                 <h2>Read Latest News</h2>
                 <div className="underline"></div>
             </div>
-            <div className="row row-cols-1 row-cols-md-3 g-4 mt-5 pt-5">
-                <div className="col col-lg-4 col-md-6">
+            <div className="row row-cols-1 row-cols-md-3 g-4 mt-5 pt-5" >
+                <div className="col col-lg-4 col-md-6" data-aos="zoom-in"
+                    data-aos-duration="1000">
                     <div className="card">
-                        <img src={blog1} className="card-img-top" alt="..." />
+                        <img src={blog1} className="card-img-top" alt="blog-picture" />
                         <div className="card-body">
                             <h5 className="card-title text-start">What Is SEO?</h5>
                             <p className="card-text text-start text-secondary">Posted on 5 January 2022</p>
                         </div>
                     </div>
                 </div>
-                <div className="col col-lg-4 col-md-6">
+                <div className="col col-lg-4 col-md-6" data-aos="zoom-in"
+                    data-aos-duration="1250">
                     <div className="card">
-                        <img src={blog2} className="card-img-top" alt="..." />
+                        <img src={blog2} className="card-img-top" alt="blog-picture" />
                         <div className="card-body">
                             <h5 className="card-title text-start">Search Engine Positioning</h5>
                             <p className="card-text text-start text-secondary">Posted on 1 January 2022</p>
                         </div>
                     </div>
                 </div>
-                <div className="col col-lg-4 col-md-6">
+                <div className="col col-lg-4 col-md-6" data-aos="zoom-in"
+                    data-aos-duration="1500">
                     <div className="card">
-                        <img src={blog3} className="card-img-top" alt="..." />
+                        <img src={blog3} className="card-img-top" alt="blog-picture" />
                         <div className="card-body">
                             <h5 className="card-title text-start">SEO and SEM</h5>
                             <p className="card-text text-start text-secondary">Posted on 1 January 2022</p>
                         </div>
                     </div>
                 </div>
-                <div className="col col-lg-4 col-md-6">
+                <div className="col col-lg-4 col-md-6" data-aos="zoom-in"
+                    data-aos-duration="1000">
                     <div className="card">
-                        <img src={blog4} className="card-img-top" alt="..." />
+                        <img src={blog4} className="card-img-top" alt="blog-picture" />
                         <div className="card-body">
                             <h5 className="card-title text-start">Search Engine Ranking</h5>
                             <p className="card-text text-start text-secondary">Posted on 2 January 2022</p>
                         </div>
                     </div>
                 </div>
-                <div className="col col-lg-4 col-md-6">
+                <div className="col col-lg-4 col-md-6" data-aos="zoom-in"
+                    data-aos-duration="1250">
                     <div className="card">
-                        <img src={blog5} className="card-img-top" alt="..." />
+                        <img src={blog5} className="card-img-top" alt="blog-picture" />
                         <div className="card-body">
                             <h5 className="card-title text-start ">SEO Best Practices</h5>
                             <p className="card-text text-start text-secondary">Posted on 3 January 2022</p>
                         </div>
                     </div>
                 </div>
-                <div className="col col-lg-4 col-md-6">
+                <div className="col col-lg-4 col-md-6" data-aos="zoom-in"
+                    data-aos-duration="1500">
                     <div className="card">
-                        <img src={blog6} className="card-img-top" alt="..." />
+                        <img src={blog6} className="card-img-top" alt="blog-picture" />
                         <div className="card-body">
                             <h5 className="card-title text-start">SEO Friendly Web Design</h5>
                             <p className="card-text text-start text-secondary">Posted on 4 January 2022</p>

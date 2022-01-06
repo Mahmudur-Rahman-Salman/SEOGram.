@@ -8,7 +8,7 @@ const Services = () => {
                 <h2>How SEO Team Can Help</h2>
                 <div className="underline"></div>
             </div>
-            <div className="row pt-5 mt-5 g-5">
+            <div className="row pt-5 mt-5 g-5" data-aos="fade-up" data-aos-duration="3000">
                 <div className="col-lg-3 col-md-6 col-12 text-center">
                     <div><i class="far fa-building fa-4x p-2 text-secondary"></i></div>
                     <div>
@@ -65,7 +65,7 @@ const Services = () => {
                         <p>In general, the better content you put out there, the higher you’ll rank.</p>
                     </div>
                 </div>
-                
+
 
             </div>
         </div>
