@@ -45,7 +45,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <p class="text-center text-primary p-4">© copyrights 2022. All rights reserved by Salman</p>
+                <p class="text-center text-primary p-4 mb-0">© copyrights 2022. All rights reserved by Salman</p>
             </footer>
 
         </div>
